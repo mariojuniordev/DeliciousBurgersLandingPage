@@ -1,0 +1,120 @@
+/*GERAL
+**********/
+html, body{
+  height: 100%;
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #161616;
+  color:white;
+}
+
+.section-background{
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 900px;
+}
+
+.section-container{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.65);
+}
+
+.section-title{
+  text-align: center;
+  font-size: 50px;
+}
+
+.section-text{
+  padding: 15px;
+  margin: 0px;
+  font-size: 18px;
+}
+
+.ancora{
+  position: absolute;
+  top: -90px;
+}
+
+/*HEADER
+**********/
+.main-header{
+  position: relative;
+}
+
+.header-video{
+  width: 100%;
+}
+
+nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.65);
+  z-index: 100;
+}
+
+.navigation-list-item{
+  display: inline-block;
+  padding: 15px;
+}
+
+.nav-link{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.nav-link:hover{
+  color: #0079d0;
+}
+
+.logo{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 100%;
+  max-width: 50%;
+  max-height: 50%;
+}
+
+/*O LUGAR
+**********/
+.lugar{
+  background-image: url('./images/saloon.jpg');
+}
+/*NOSSOS DRINKS
+**********/
+.burgers{
+  background-image: url('./images/burgers.jpg');
+}
+/*FOOTER
+**********/
+.main-footer{
+  position: relative;
+  padding: 10px;
+}
+
+.footer-section{
+  display: inline-block;
+  width: 23%;
+  vertical-align: top;
+}
+
+/*MEUS DADOS
+**********/
+.github{
+  text-decoration: none;
+  color: white;
+}
+
+.github:hover{
+  color: blue;
+}
