@@ -2,4 +2,4 @@
 
 Este foi um projeto de HTML e CSS que desenvolvi no programa de formação Transformers da Labsit.
 
-   <video src="videos/dbvideo.mp4" autoplay muted loop></video>
+   <video src="videos/dbvideo.mp4"></video>
